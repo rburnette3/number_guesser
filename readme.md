@@ -42,29 +42,30 @@ evaluated and adjusted based on relationships to other elements on comp within p
   #####  JavaScript#####
 
   upon workup of HTML and CSS, Java script was incorporated based on functionality of page.  First, define global variables for use in later function:
-  var guessButton = document.getElementById('guessButton');
-  var clearButton = document.getElementById('clearButton');
-  var resetButton = document.getElementById('resetButton');
-  var randomNumber;
+  - var guessButton = document.getElementById('guessButton');
+  - var clearButton = document.getElementById('clearButton');
+  - var resetButton = document.getElementById('resetButton');
+  - var randomNumber;
   var userState = document.getElementById('userState');
-  var zeroState = document.getElementById('zeroState');
-  var lastGuessMessage
+  - var zeroState = document.getElementById('zeroState');
+  - var lastGuessMessage
   Variables use "I.D." to better determine usage.
 
   "top to bottom" approach used again based on structure of HTML.
   The next step, determine clickable buttons and relations to action of page.
-  -guessButton- used to submit guess
-  -clearButton- used to clear out input field of last guess and attempt another guess.
-  -resetButton-  used to clear contents of input field and last guess number and start over
+  - guessButton - used to submit guess
+  - clearButton - used to clear out input field of last guess and attempt another guess.
+  - resetButton -  used to clear contents of input field and last guess number and start over
 
   Create a function list to incorporate the variables into a function associated with each button.
   Console. log was added to functions inorder to test actions while building page.
-  -function clearInput() clears input field
-  -function clearZero() clears last guess return
-  -function disableButton() used to disable button until input field is complete
-  -function unDisableButton() used to enable button once input complete
-  -function clearLastGuessMessage() clears message return
-  -function clearUserState() clears result
-  -function getRandomNumber() will assign number on load and reset
-  -function evaluateGuess() compares random number to user guess
+  - function clearInput() clears input field
+  - function clearZero() clears last guess return
+  - function disableButton() used to disable button until input field is complete
+  - function unDisableButton() used to enable button once input complete
+  - function clearLastGuessMessage() clears message return
+  - function clearUserState() clears result
+  - function getRandomNumber() will assign number on load and reset
+  - function evaluateGuess() compares random number to user guess
  @rburnette3
+s
