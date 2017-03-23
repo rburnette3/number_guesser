@@ -1,0 +1,113 @@
+body {font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+margin: 0 auto;
+}
+
+header {
+  height:125px;
+  background-color: #404041;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  color: #E6E7E8;
+  font-weight: 300;
+}
+
+h1{
+  font-size: 70px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.number {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #ED458B;
+}
+
+.guesser {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #E6E7E8;
+}
+
+main {
+  margin: auto;
+  text-align: center;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+input {
+  width:500px;
+  height: 50px;
+  border: 2px solid ##ffffff;
+  margin: 50px;
+  margin-bottom: 30px;
+  font-family:'Open Sans', sans-serif;
+  font-size: 36px;
+  color: #404041;
+}
+
+main {
+  margin: auto;
+  text-align: center;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+button {
+  border-radius: 25px;
+  width: 225px;
+  height: 50px;
+  color: #ffffff;
+  margin: 25px;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  background-color: #929497;
+  decoration: none;
+}
+.numberDiv{
+  height:150px;
+}
+.zeroState{
+  color:#EB008B;
+  font-size: 96px;
+}
+.userState{
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.lastGuessMessage{
+  margin-top: 0;
+  margin-bottom
+}
+
+p {
+  color: #404041;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+}
+.resetButton {
+  width: 500px;
+  height: 45px;
+  padding-bottom: 5px;
+  font-size: 24px;
+}
+button:hover {
+  background: #EB008B
+}
+button:disabled {
+  background: #D0D2D3;
+}
+button:focus{
+  outline: none;
+  outline: 0;
+}
+button:active{
+  outline: none;
+  border: none;
+}

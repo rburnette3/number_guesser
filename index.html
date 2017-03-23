@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NumberGuesser</title>
+  <link rel="stylesheet" href="/Users/rgburnette3/number_guesser/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+</head>
+<body onload="getRandomNumber();">
+  <header>
+    <h1><span class="number">Number</span> <span class="guesser">Guesser</span></h1>
+  </header>
+  <main>
+    <input id="guessInput" class="guessInput" type="number" placeholder="Enter your guess" onkeyup= "unDisableButton()">
+    <div class="">
+    <button id="guessButton" class="guessButton db1"  type="button" name="button" disabled>Guess</button>
+    <button id="clearButton" class="clearButton db2" type="button" name="button" disabled>Clear</button>
+    </div>
+
+
+
+    <p id="lastGuessMessage" class="lastGuessMessage">Welcome</p>
+    <div id=zeroState class=zeroState>0</div>
+    <p id="userState" class="userState">Guess a Number between 1 and 100</p>
+
+    <button id="resetButton" class="resetButton db3" type="button" name="button" disabled>Reset</button>
+
+
+  </main>
+
+<script src="script.js">
+</script>
+</body>
+  </html>
